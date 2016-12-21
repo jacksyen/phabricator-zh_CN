@@ -20,59 +20,59 @@ return array(
   '  phabricator/ $ ./bin/remove destroy %s\n' => null,
 
   // src/applications/transactions/replyhandler/PhabricatorApplicationTransactionReplyHandler.php:141
-  '!%s (or %s)' => null,
+  '!%s (or %s)' => '!%s (或者 %s)',
 
   // src/applications/diviner/controller/DivinerFindController.php:90
   '"%s"' => null,
 
   // src/applications/auth/view/PhabricatorAuthAccountView.php:54
-  '"%s" Account' => null,
+  '"%s" Account' => '"%s" 账户',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:93
-  '"%s" Disabled' => null,
+  '"%s" Disabled' => '"%s" 禁用',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:94
-  '"%s" Disabled in Development' => null,
+  '"%s" Disabled in Development' => '"%s" 禁用开发',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:73
-  '"%s" Enabled' => null,
+  '"%s" Enabled' => '"%s" 启用',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:74
-  '"%s" Enabled in Production' => null,
+  '"%s" Enabled in Production' => '"%s" 启用生产',
 
   // src/applications/phragment/controller/PhragmentSnapshotViewController.php:43
   // src/applications/phragment/controller/PhragmentSnapshotViewController.php:94
-  '"%s" Snapshot' => null,
+  '"%s" Snapshot' => '"%s" 快照',
 
   // src/applications/people/storage/PhabricatorExternalAccount.php:127
-  '"%s" User' => null,
+  '"%s" User' => '"%s" 用户',
 
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:900
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:913
   '"%s" date can not be parsed.' => '"%s" 日期不能被解析.',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:81
-  '"%s" is currently disabled, but should probably be enabled.' => null,
+  '"%s" is currently disabled, but should probably be enabled.' => '"%s" 目前已停用，但应该启用.',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:61
-  '"%s" is currently enabled, but should probably be disabled.' => null,
+  '"%s" is currently enabled, but should probably be disabled.' => '"%s" 当前已启用，但应该可以禁用.',
 
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:921
-  '"%s" must be a date before "%s".' => null,
+  '"%s" must be a date before "%s".' => '"%s"必须是"%s"之前的日期.',
 
   // src/applications/tokens/event/PhabricatorTokenUIEventListener.php:124
-  '"%s" token, awarded by %s.' => null,
+  '"%s" token, awarded by %s.' => '"%s" 令牌，由%s授予',
 
   // src/applications/metamta/storage/__tests__/PhabricatorMetaMTAMailTestCase.php:80
   // src/applications/metamta/storage/__tests__/PhabricatorMetaMTAMailTestCase.php:97
   // src/applications/metamta/storage/__tests__/PhabricatorMetaMTAMailTestCase.php:122
-  '"From" does not exclude recipients by default.' => null,
+  '"From" does not exclude recipients by default.' => '“发件人”默认不排除收件人',
 
   // src/applications/metamta/storage/__tests__/PhabricatorMetaMTAMailTestCase.php:106
-  '"From" excludes recipients with no-mail set.' => null,
+  '"From" excludes recipients with no-mail set.' => '“发件人”排除了未设置邮件的收件人',
 
   // src/applications/metamta/storage/__tests__/PhabricatorMetaMTAMailTestCase.php:89
-  '"From" excludes recipients with no-self-mail set.' => null,
+  '"From" excludes recipients with no-self-mail set.' => '“发件人”排除没有设置邮件的收件人',
 
   // src/applications/metamta/storage/__tests__/PhabricatorMetaMTAMailTestCase.php:112
   '"From" includes no-mail recipients when forced.' => null,
@@ -84,7 +84,7 @@ return array(
   '#%d' => null,
 
   // src/applications/config/check/PhabricatorPathSetupCheck.php:114
-  '$PATH Component Unusable' => null,
+  '$PATH Component Unusable' => '$PATH 组件不可用',
 
   // src/applications/system/action/PhabricatorSystemAction.php:33
   '%d / hour' => '%d / 小时',
@@ -96,7 +96,7 @@ return array(
   '%d / second' => '%d / 秒',
 
   // src/applications/transactions/response/PhabricatorApplicationTransactionNoEffectResponse.php:55
-  '%d Action(s) Have No Effect' => null,
+  '%d Action(s) Have No Effect' => '%d 动作没有效果',
 
   // src/applications/transactions/response/PhabricatorApplicationTransactionNoEffectResponse.php:38
   '%d Action(s) With No Effect' => null,
@@ -130,7 +130,7 @@ return array(
   '%d Open Resource(s) Remain' => null,
 
   // src/applications/differential/customfield/DifferentialLintField.php:228
-  '%d Postponed' => null,
+  '%d Postponed' => '%d个延期',
 
   // src/applications/differential/customfield/DifferentialLintField.php:216
   '%d Warning(s)' => '%d个警告',
@@ -2832,7 +2832,7 @@ return array(
   '(All Content Types)' => null,
 
   // src/applications/harbormaster/query/HarbormasterBuildableSearchEngine.php:152
-  '(All Origins)' => null,
+  '(All Origins)' => '(所有组织)',
 
   // src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php:64
   '(All Panels)' => '（所有面板）',
@@ -2848,10 +2848,10 @@ return array(
   '(All Severities)' => null,
 
   // src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php:54
-  '(All Types)' => null,
+  '(All Types)' => '(所有类型)',
 
   // src/applications/multimeter/controller/MultimeterSampleController.php:280
-  '(All)' => null,
+  '(All)' => '(所有)',
 
   // src/applications/paste/storage/PhabricatorPaste.php:97
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:142
@@ -2905,16 +2905,16 @@ return array(
   '(No Credentials)' => '（无证书）',
 
   // src/applications/passphrase/view/PassphraseCredentialControl.php:54
-  '(No Existing Credentials)' => null,
+  '(No Existing Credentials)' => '(凭据不存在)',
 
   // src/applications/macro/query/PhabricatorMacroQuery.php:33
-  '(No Filtering)' => null,
+  '(No Filtering)' => '(没有筛选)',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:469
   '(No Project)' => '(没有项目)',
 
   // src/applications/metamta/management/PhabricatorMailManagementListInboundWorkflow.php:63
-  '(No subject.)' => null,
+  '(No subject.)' => '(没有主题)',
 
   // src/applications/dashboard/customfield/PhabricatorDashboardPanelTabsCustomField.php:49
   // src/applications/dashboard/customfield/PhabricatorDashboardPanelSearchQueryCustomField.php:42
@@ -2925,10 +2925,10 @@ return array(
   '(None.)' => null,
 
   // src/applications/maniphest/view/ManiphestTaskResultListView.php:167
-  '(Not Assigned)' => null,
+  '(Not Assigned)' => '(未分配)',
 
   // src/applications/config/view/PhabricatorSetupIssueView.php:438
-  '(Not Supported)' => null,
+  '(Not Supported)' => '(不支持)',
 
   // src/applications/differential/view/DifferentialTransactionView.php:152
   '(On Diff #%d)' => null,
@@ -2997,7 +2997,7 @@ return array(
 
   // src/applications/audit/view/PhabricatorAuditListView.php:69
   // src/applications/audit/view/PhabricatorAuditListView.php:74
-  '(Unknown Commit)' => null,
+  '(Unknown Commit)' => '(未知的提交)',
 
   // src/applications/herald/adapter/HeraldAdapter.php:1217
   '(Unknown Custom Action "%s") equals' => null,
@@ -3006,13 +3006,13 @@ return array(
   '(Unknown Custom Field "%s")' => null,
 
   // src/applications/herald/adapter/HeraldAdapter.php:1197
-  '(Unknown Field "%s")' => null,
+  '(Unknown Field "%s")' => '(未知的字段 "%s")',
 
   // src/applications/audit/view/PhabricatorAuditListView.php:88
-  '(Untitled Commit)' => null,
+  '(Untitled Commit)' => '(无标题提交)',
 
   // src/applications/phriction/controller/PhrictionDocumentController.php:438
-  '(Untitled Document)' => null,
+  '(Untitled Document)' => '(无标题文档)',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:437
   '(Up For Grabs)' => null,
@@ -3546,7 +3546,7 @@ return array(
   'Access Denied: %s' => null,
 
   // src/applications/config/option/PhabricatorAccessLogConfigOptions.php:7
-  'Access Logs' => null,
+  'Access Logs' => '访问日志',
 
   // src/applications/config/option/PhabricatorAWSConfigOptions.php:46
   'Access key for Amazon EC2.' => null,
@@ -4326,7 +4326,7 @@ return array(
   'Agree and Sign Document' => null,
 
   // src/applications/legalpad/application/PhabricatorLegalpadApplication.php:14
-  'Agreements and Signatures' => null,
+  'Agreements and Signatures' => '协议和签名',
 
   // src/applications/almanac/application/PhabricatorAlmanacApplication.php:32
   'Alamanac User Guide' => null,
@@ -4513,38 +4513,38 @@ return array(
   'All Rooms' => '所有群聊',
 
   // src/applications/herald/controller/HeraldTranscriptController.php:164
-  'All Rules' => null,
+  'All Rules' => '所有规则',
 
   // src/applications/almanac/query/AlmanacServiceSearchEngine.php:42
-  'All Services' => null,
+  'All Services' => '所有服务',
 
   // src/applications/config/controller/PhabricatorConfigController.php:16
-  'All Settings' => null,
+  'All Settings' => '所有配置',
 
   // src/applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php:122
-  'All Signatures' => null,
+  'All Signatures' => '所有签名',
 
   // src/applications/nuance/query/NuanceSourceSearchEngine.php:36
   'All Sources' => null,
 
   // src/applications/spaces/query/PhabricatorSpacesNamespaceSearchEngine.php:36
-  'All Spaces' => null,
+  'All Spaces' => '所有空间',
 
   // src/applications/feed/query/PhabricatorFeedSearchEngine.php:101
   'All Stories' => '所有反馈',
 
   // src/applications/phortune/query/PhortuneSubscriptionSearchEngine.php:109
-  'All Subscriptions' => null,
+  'All Subscriptions' => '所有订阅',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:452
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:235
   'All Tasks' => '所有任务',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:225
-  'All Time' => null,
+  'All Time' => '所有时间',
 
   // src/applications/phrequent/query/PhrequentSearchEngine.php:91
-  'All Tracked' => null,
+  'All Tracked' => '所有跟踪',
 
   // src/applications/policy/query/PhabricatorPolicyQuery.php:164
   'All Users' => '所有用户',
@@ -5333,7 +5333,7 @@ return array(
   'Asana Workspace ID to publish into.' => null,
 
   // src/applications/doorkeeper/option/PhabricatorAsanaConfigOptions.php:11
-  'Asana integration options.' => null,
+  'Asana integration options.' => 'Asana集成选项',
 
   // src/applications/doorkeeper/bridge/DoorkeeperBridgeAsana.php:106
   'Asana: %s' => null,
@@ -5832,7 +5832,7 @@ return array(
   'Award Token' => '奖令牌',
 
   // src/applications/tokens/application/PhabricatorTokensApplication.php:22
-  'Award and Acquire Trinkets' => null,
+  'Award and Acquire Trinkets' => '获奖和获得饰品',
 
   // src/applications/people/storage/PhabricatorUser.php:839
   'Away until %s' => null,
@@ -6373,13 +6373,13 @@ return array(
   'Browse Repository' => '浏览仓库',
 
   // src/applications/search/typeahead/PhabricatorSearchDatasource.php:7
-  'Browse Results' => null,
+  'Browse Results' => '浏览结果',
 
   // src/applications/almanac/typeahead/AlmanacServiceDatasource.php:7
-  'Browse Services' => null,
+  'Browse Services' => '浏览服务',
 
   // src/applications/config/controller/PhabricatorConfigController.php:15
-  'Browse Settings' => null,
+  'Browse Settings' => '浏览配置',
 
   // src/applications/spaces/typeahead/PhabricatorSpacesNamespaceDatasource.php:7
   'Browse Spaces' => '浏览空间',
@@ -6496,7 +6496,7 @@ return array(
   'Build step not found!' => null,
 
   // src/applications/harbormaster/application/PhabricatorHarbormasterApplication.php:14
-  'Build/CI' => null,
+  'Build/CI' => '编译/自动化',
 
   // src/applications/harbormaster/phid/HarbormasterBuildablePHIDType.php:8
   // src/applications/harbormaster/controller/HarbormasterBuildableViewController.php:148
@@ -7610,7 +7610,7 @@ return array(
   'Cluster Repository' => null,
 
   // src/applications/config/option/PhabricatorClusterConfigOptions.php:7
-  'Cluster Setup' => null,
+  'Cluster Setup' => '安装集群',
 
   // src/applications/diffusion/view/DiffusionPushLogListView.php:110
   // src/applications/diffusion/controller/DiffusionLintController.php:97
@@ -7951,7 +7951,7 @@ return array(
   'Condolences on forgetting your password. You can use this link to reset it:\n\n  %s\n\nAfter you set a new password, consider writing it down on a sticky note and attaching it to your monitor so you don\'t forget again! Choosing a very short, easy-to-remember password like "cat" or "1234" might also help.\n\nBest Wishes,\nPhabricator\n' => null,
 
   // src/applications/slowvote/application/PhabricatorSlowvoteApplication.php:18
-  'Conduct Polls' => null,
+  'Conduct Polls' => '进行投票',
 
   // src/applications/metamta/contentsource/PhabricatorContentSource.php:71
   // src/applications/conduit/application/PhabricatorConduitApplication.php:27
@@ -8092,77 +8092,77 @@ return array(
   'Configure JIRA OAuth. NOTE: Only supports JIRA 6.' => null,
 
   // src/applications/legalpad/config/PhabricatorLegalpadConfigOptions.php:11
-  'Configure Legalpad.' => null,
+  'Configure Legalpad.' => '配置Legalpad.',
 
   // src/applications/macro/config/PhabricatorMacroConfigOptions.php:11
-  'Configure Macro.' => null,
+  'Configure Macro.' => '配置宏.',
 
   // src/applications/config/option/PhabricatorMetaMTAConfigOptions.php:11
-  'Configure Mail.' => null,
+  'Configure Mail.' => '配置Mail.',
 
   // src/applications/config/option/PhabricatorMailgunConfigOptions.php:11
-  'Configure Mailgun integration.' => null,
+  'Configure Mailgun integration.' => '配置Mailgun集成.',
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:262
-  'Configure Maniphest priority names.' => null,
+  'Configure Maniphest priority names.' => '配置最优先级名称.',
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:284
-  'Configure Maniphest task statuses.' => null,
+  'Configure Maniphest task statuses.' => '配置最重要的任务状态.',
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:11
-  'Configure Maniphest.' => null,
+  'Configure Maniphest.' => '配置Maniphest.',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:820
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:831
   'Configure More Options First' => '更多选项配置',
 
   // src/applications/owners/config/PhabricatorOwnersConfigOptions.php:11
-  'Configure Owners.' => null,
+  'Configure Owners.' => '配置所有者',
 
   // src/applications/config/option/PhabricatorPHPMailerConfigOptions.php:11
-  'Configure PHPMailer.' => null,
+  'Configure PHPMailer.' => '配置PHP邮件',
 
   // src/applications/paste/config/PhabricatorPasteConfigOptions.php:11
-  'Configure Paste.' => null,
+  'Configure Paste.' => '配置粘贴',
 
   // src/applications/config/application/PhabricatorConfigApplication.php:34
-  'Configure Phabricator' => '配置 Phabricator',
+  'Configure Phabricator' => '配置',
 
   // src/applications/config/option/PhabricatorClusterConfigOptions.php:11
-  'Configure Phabricator to run on a cluster of hosts.' => null,
+  'Configure Phabricator to run on a cluster of hosts.' => '配置Phabricator在主机集群上运行.',
 
   // src/applications/phame/config/PhabricatorPhameConfigOptions.php:11
-  'Configure Phame blogs.' => null,
+  'Configure Phame blogs.' => '配置Phame博客.',
 
   // src/applications/pholio/config/PhabricatorPholioConfigOptions.php:11
-  'Configure Pholio.' => null,
+  'Configure Pholio.' => '配置Pholio.',
 
   // src/applications/phrequent/config/PhabricatorPhrequentConfigOptions.php:11
-  'Configure Phrequent.' => null,
+  'Configure Phrequent.' => '配置Phrequent.',
 
   // src/applications/project/config/PhabricatorProjectConfigOptions.php:11
-  'Configure Projects.' => null,
+  'Configure Projects.' => '配置项目.',
 
   // src/applications/config/option/PhabricatorRecaptchaConfigOptions.php:11
-  'Configure Recaptcha captchas.' => null,
+  'Configure Recaptcha captchas.' => '配置Recaptcha验证码.',
 
   // src/applications/config/option/PhabricatorSMSConfigOptions.php:11
-  'Configure SMS.' => null,
+  'Configure SMS.' => '配置短信.',
 
   // src/applications/config/option/PhabricatorSendGridConfigOptions.php:11
-  'Configure SendGrid integration.' => null,
+  'Configure SendGrid integration.' => '配置SendGrid集成.',
 
   // src/applications/config/option/PhabricatorPHPMailerConfigOptions.php:43
-  'Configure TLS or SSL for SMTP.' => null,
+  'Configure TLS or SSL for SMTP.' => '为SMTP配置TLS或SSL',
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:13
-  'Configure a connection to an LDAP server so that users can use their LDAP credentials to log in to Phabricator.' => null,
+  'Configure a connection to an LDAP server so that users can use their LDAP credentials to log in to Phabricator.' => '配置与LDAP服务器的连接，以便用户可以使用其LDAP凭据登录Phabricator',
 
   // src/applications/drydock/controller/DrydockConsoleController.php:38
   'Configure blueprints so Drydock can build resources, like hosts and working copies.' => null,
 
   // src/applications/config/option/PhabricatorCoreConfigOptions.php:11
-  'Configure core options, including URIs.' => null,
+  'Configure core options, including URIs.' => '配置核心选项，包括URI.',
 
   // src/applications/config/option/PhabricatorMySQLConfigOptions.php:45
   'Configure database configuration class.' => null,
@@ -8189,22 +8189,22 @@ return array(
   'Configure more options before creating the repository. This will let you fine-tune settings. You can create the repository whenever you are ready.' => null,
 
   // src/applications/config/option/PhabricatorNotificationConfigOptions.php:11
-  'Configure real-time notifications.' => null,
+  'Configure real-time notifications.' => '配置实时通知.',
 
   // src/applications/repository/config/PhabricatorRepositoryConfigOptions.php:11
   'Configure repositories.' => '配置仓库。',
 
   // src/applications/config/option/PhabricatorGarbageCollectorConfigOptions.php:11
-  'Configure the GC for old logs, caches, etc.' => null,
+  'Configure the GC for old logs, caches, etc.' => '为旧日志，缓存等配置GC',
 
   // src/applications/config/option/PhabricatorUIConfigOptions.php:11
-  'Configure the Phabricator UI, including colors.' => null,
+  'Configure the Phabricator UI, including colors.' => '配置Phabricator UI，包括颜色.',
 
   // src/applications/config/option/PhabricatorAccessLogConfigOptions.php:11
-  'Configure the access logs, which log HTTP/SSH requests.' => null,
+  'Configure the access logs, which log HTTP/SSH requests.' => '配置访问日志，记录HTTP / SSH请求.',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:340
-  'Configure the cutoff for the "Recently Closed" column.' => null,
+  'Configure the cutoff for the "Recently Closed" column.' => '配置“最近关闭”列的截止值.',
 
   // src/applications/files/config/PhabricatorFilesConfigOptions.php:138
   'Configure the largest file which will be put into the MySQL storage engine.' => null,
@@ -8512,7 +8512,7 @@ return array(
   'Copy-paste the API Token below to grant access to your account.' => null,
 
   // src/applications/config/option/PhabricatorCoreConfigOptions.php:7
-  'Core' => null,
+  'Core' => '核心',
 
   // src/applications/base/PhabricatorApplication.php:22
   'Core Applications' => '核心应用',
@@ -8554,7 +8554,7 @@ return array(
   'Countdown' => '倒计时',
 
   // src/applications/countdown/application/PhabricatorCountdownApplication.php:18
-  'Countdown to Events' => null,
+  'Countdown to Events' => '倒计时事件',
 
   // src/applications/countdown/query/PhabricatorCountdownSearchEngine.php:7
   'Countdowns' => null,
@@ -8794,7 +8794,7 @@ return array(
   'Create New...' => '创建新的...',
 
   // src/applications/herald/application/PhabricatorHeraldApplication.php:18
-  'Create Notification Rules' => null,
+  'Create Notification Rules' => '创建通知规则',
 
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientEditController.php:36
   'Create OAuth Application' => null,
@@ -8943,7 +8943,7 @@ return array(
   'Create a Phriction document.' => null,
 
   // src/applications/conpherence/view/ConpherenceThreadListView.php:146
-  'Create a Room' => null,
+  'Create a Room' => '创建一个群聊',
 
   // src/applications/people/controller/PhabricatorPeopleCreateController.php:35
   'Create a bot/script user account, to automate interactions with other systems. These users can not use the web interface, but can use the API.' => null,
@@ -9143,7 +9143,7 @@ return array(
   'Credential Secret (%s)' => null,
 
   // src/applications/passphrase/application/PhabricatorPassphraseApplication.php:14
-  'Credential Store' => null,
+  'Credential Store' => '证书商店',
 
   // src/applications/passphrase/controller/PassphraseCredentialCreateController.php:31
   // src/applications/passphrase/controller/PassphraseCredentialEditController.php:242
@@ -9398,7 +9398,7 @@ return array(
   // src/applications/daemon/application/PhabricatorDaemonsApplication.php:6
   // src/applications/daemon/controller/PhabricatorDaemonController.php:9
   // src/applications/metamta/contentsource/PhabricatorContentSource.php:78
-  'Daemons' => null,
+  'Daemons' => '守护进程',
 
   // src/applications/config/check/PhabricatorDaemonsSetupCheck.php:42
   'Daemons Not Running' => null,
@@ -9451,48 +9451,48 @@ return array(
   'Dashboards' => '仪表板',
 
   // src/applications/daemon/controller/PhabricatorWorkerTaskDetailController.php:159
-  'Data' => null,
+  'Data' => '数据',
 
   // src/applications/config/controller/PhabricatorConfigCacheController.php:93
-  'Data Cache' => null,
+  'Data Cache' => '数据缓存',
 
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:360
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:565
-  'Data Type' => null,
+  'Data Type' => '数据类型',
 
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:149
   // src/applications/config/controller/PhabricatorConfigDatabaseIssueController.php:118
   // src/applications/config/controller/PhabricatorConfigController.php:20
-  'Database' => null,
+  'Database' => '数据库',
 
   // src/applications/config/controller/PhabricatorConfigDatabaseIssueController.php:17
   // src/applications/config/controller/PhabricatorConfigDatabaseIssueController.php:148
   // src/applications/config/controller/PhabricatorConfigController.php:22
-  'Database Issues' => null,
+  'Database Issues' => '数据库Issues',
 
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:72
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:95
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:161
   // src/applications/config/controller/PhabricatorConfigController.php:21
-  'Database Status' => null,
+  'Database Status' => '数据库状态',
 
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:222
-  'Database Status: %s' => null,
+  'Database Status: %s' => '数据库状态: %s',
 
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:446
-  'Database Status: %s.%s' => null,
+  'Database Status: %s.%s' => '数据库状态: %s.%s',
 
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:678
-  'Database Status: %s.%s (%s)' => null,
+  'Database Status: %s.%s (%s)' => '数据库状态: %s.%s (%s)',
 
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:557
-  'Database Status: %s.%s.%s' => null,
+  'Database Status: %s.%s.%s' => '数据库状态: %s.%s.%s',
 
   // src/applications/config/option/PhabricatorMySQLConfigOptions.php:11
-  'Database configuration.' => null,
+  'Database configuration.' => '数据库配置.',
 
   // src/applications/config/management/PhabricatorConfigManagementGetWorkflow.php:87
-  'Database source is not configured properly' => null,
+  'Database source is not configured properly' => '数据库源配置不正确',
 
   // src/applications/differential/view/DifferentialLocalCommitsView.php:128
   // src/applications/fund/query/FundBackerSearchEngine.php:134
@@ -9509,7 +9509,7 @@ return array(
 
   // src/applications/maniphest/export/ManiphestExcelDefaultFormat.php:58
   // src/applications/phriction/query/PhrictionSearchEngine.php:109
-  'Date Created' => null,
+  'Date Created' => '创建时间',
 
   // src/applications/maniphest/export/ManiphestExcelDefaultFormat.php:59
   // src/applications/phriction/query/PhrictionSearchEngine.php:110
@@ -10432,7 +10432,7 @@ return array(
   'Disqus' => null,
 
   // src/applications/config/option/PhabricatorDisqusConfigOptions.php:11
-  'Disqus authentication and integration options.' => null,
+  'Disqus authentication and integration options.' => 'Disqus身份验证和集成选项.',
 
   // src/applications/diviner/application/PhabricatorDivinerApplication.php:14
   'Diviner' => null,
@@ -12324,7 +12324,7 @@ return array(
   'Extended Policy with Cycle' => null,
 
   // src/applications/config/option/PhabricatorExtendingPhabricatorConfigOptions.php:7
-  'Extending Phabricator' => null,
+  'Extending Phabricator' => '扩展Phabricator',
 
   // src/applications/diviner/controller/DivinerAtomController.php:283
   'Extends' => null,
@@ -13894,7 +13894,7 @@ return array(
   'Image Macro "%s"' => null,
 
   // src/applications/macro/application/PhabricatorMacroApplication.php:14
-  'Image Macros and Memes' => null,
+  'Image Macros and Memes' => '图像宏和图像',
 
   // src/applications/uiexample/examples/PHUIImageMaskExample.php:6
   'Image Masks' => null,
@@ -14273,19 +14273,19 @@ return array(
   'Instructions for reverting/undoing this change.' => null,
 
   // src/applications/doorkeeper/option/PhabricatorAsanaConfigOptions.php:7
-  'Integration with Asana' => null,
+  'Integration with Asana' => '与Asana集成',
 
   // src/applications/config/option/PhabricatorDisqusConfigOptions.php:7
-  'Integration with Disqus' => null,
+  'Integration with Disqus' => '与Disqus集成',
 
   // src/applications/config/option/PhabricatorMailgunConfigOptions.php:7
-  'Integration with Mailgun' => null,
+  'Integration with Mailgun' => '与Mailgun集成',
 
   // src/applications/config/option/PhabricatorRecaptchaConfigOptions.php:7
-  'Integration with Recaptcha' => null,
+  'Integration with Recaptcha' => '与Recaptcha集成',
 
   // src/applications/config/option/PhabricatorSendGridConfigOptions.php:7
-  'Integration with SendGrid' => null,
+  'Integration with SendGrid' => '与SendGrid集成',
 
   // src/applications/releeph/field/specification/ReleephIntentFieldSpecification.php:11
   'Intent' => null,
@@ -14754,17 +14754,17 @@ return array(
 
   // src/applications/calendar/controller/PhabricatorCalendarEventJoinController.php:79
   // src/applications/conpherence/controller/ConpherenceViewController.php:156
-  'Join' => null,
+  'Join' => '加入',
 
   // src/applications/calendar/controller/PhabricatorCalendarEventJoinController.php:77
   // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:195
   'Join Event' => null,
 
   // src/applications/project/controller/PhabricatorProjectProfileController.php:135
-  'Join Project' => null,
+  'Join Project' => '加入项目',
 
   // src/applications/conpherence/view/ConpherenceThreadListView.php:139
-  'Join a Room' => null,
+  'Join a Room' => '加入一个群聊',
 
   // src/applications/project/editor/__tests__/PhabricatorProjectEditorTestCase.php:180
   'Join allowed with edit permission.' => null,
@@ -15774,7 +15774,7 @@ return array(
   'Make HTTP Request' => null,
 
   // src/applications/config/option/PhabricatorExtendingPhabricatorConfigOptions.php:11
-  'Make Phabricator even cooler!' => null,
+  'Make Phabricator even cooler!' => '让Phabricator更炫酷!',
 
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:79
   'Make Primary' => null,
@@ -15848,7 +15848,7 @@ return array(
   'Manage Panels' => null,
 
   // src/applications/daemon/application/PhabricatorDaemonsApplication.php:10
-  'Manage Phabricator Daemons' => null,
+  'Manage Phabricator Daemons' => '管理Phabricator守护进程',
 
   // src/applications/drydock/controller/DrydockConsoleController.php:52
   'Manage leases on resources.' => null,
@@ -17281,7 +17281,7 @@ return array(
   'No daemons to reload.' => null,
 
   // src/applications/fact/controller/PhabricatorFactChartController.php:35
-  'No data to show!' => null,
+  'No data to show!' => '没有数据显示',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:309
   'No description provided.' => '无详情',
@@ -17458,7 +17458,7 @@ return array(
   'No resource with symbol "%s" exists in source "%s"!' => null,
 
   // src/applications/search/controller/PhabricatorApplicationSearchController.php:234
-  'No results found for this query.' => null,
+  'No results found for this query.' => '当前未查询到结果.',
 
   // src/applications/search/query/PhabricatorSearchApplicationSearchEngine.php:263
   'No results returned for that query.' => null,
@@ -18552,7 +18552,7 @@ return array(
   'Options related to Phriction (wiki).' => null,
 
   // src/applications/config/option/PhabricatorPHDConfigOptions.php:11
-  'Options relating to PHD (daemons).' => null,
+  'Options relating to PHD (daemons).' => '与PHD相关的选项（守护程序）',
 
   // src/applications/search/config/PhabricatorSearchConfigOptions.php:11
   'Options relating to Search.' => null,
@@ -18564,7 +18564,7 @@ return array(
   'Options relating to object visibility.' => null,
 
   // src/applications/config/option/PhabricatorSyntaxHighlightingConfigOptions.php:11
-  'Options relating to syntax highlighting source code.' => null,
+  'Options relating to syntax highlighting source code.' => '与语法高亮源代码相关的选项.',
 
   // src/applications/config/option/PhabricatorTranslationsConfigOptions.php:11
   'Options relating to translations.' => null,
@@ -18707,7 +18707,7 @@ return array(
   'Overwrite Changes' => null,
 
   // src/applications/owners/application/PhabricatorOwnersApplication.php:18
-  'Own Source Code' => null,
+  'Own Source Code' => '自己的源代码',
 
   // src/applications/owners/query/PhabricatorOwnersPackageSearchEngine.php:84
   'Owned' => null,
@@ -19324,7 +19324,7 @@ return array(
   'Personal' => null,
 
   // src/applications/flag/application/PhabricatorFlagsApplication.php:10
-  'Personal Bookmarks' => null,
+  'Personal Bookmarks' => '个人书签',
 
   // src/applications/dashboard/controller/PhabricatorDashboardInstallController.php:102
   'Personal Home Page Dashboard' => null,
@@ -19356,7 +19356,7 @@ return array(
 
   // src/applications/config/controller/PhabricatorConfigListController.php:17
   // src/applications/config/editor/PhabricatorConfigEditor.php:11
-  'Phabricator Configuration' => null,
+  'Phabricator Configuration' => '配置',
 
   // src/applications/config/check/PhabricatorDaemonsSetupCheck.php:43
   'Phabricator Daemons Are Not Running' => null,
@@ -19840,7 +19840,7 @@ return array(
   'Policy Error' => null,
 
   // src/applications/spaces/application/PhabricatorSpacesApplication.php:14
-  'Policy Namespaces' => null,
+  'Policy Namespaces' => '命名空间策略',
 
   // src/applications/policy/storage/PhabricatorPolicy.php:60
   'Policy identifier is an object PHID (\'%s\'), but no object handle was provided. A handle must be provided for object policies.' => null,
@@ -22524,7 +22524,7 @@ return array(
   'Review Mocks and Design' => '原型与设计',
 
   // src/applications/feed/application/PhabricatorFeedApplication.php:14
-  'Review Recent Activity' => null,
+  'Review Recent Activity' => '查看最近活动',
 
   // src/applications/differential/view/DifferentialReviewersView.php:49
   'Review Requested' => null,
@@ -23072,11 +23072,11 @@ return array(
   'Security' => '安全',
 
   // src/applications/config/option/PhabricatorSecurityConfigOptions.php:11
-  'Security options.' => null,
+  'Security options.' => '安全选项.',
 
   // src/applications/conpherence/view/ConpherenceThreadListView.php:211
   // src/applications/conpherence/view/ConpherenceThreadListView.php:238
-  'See More' => null,
+  'See More' => '查看更多',
 
   // src/applications/diffusion/conduit/DiffusionQueryConduitAPIMethod.php:16
   'See T2784 - migrating Diffusion working copy calls to conduit methods. Until that task is completed (and possibly after) these methods are unstable.' => null,
@@ -23091,7 +23091,7 @@ return array(
   'Select' => '选择',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditBranchesController.php:129
-  'Select %s, %s, and %s.' => null,
+  'Select %s, %s, and %s.' => '选择 %s, %s, 和 %s.',
 
   // src/applications/maniphest/view/ManiphestTaskResultListView.php:217
   'Select All' => '选择全部',
@@ -23103,7 +23103,7 @@ return array(
   'Select Syntax Highlighting' => '选择语法高亮',
 
   // src/applications/search/typeahead/PhabricatorSearchDocumentTypeDatasource.php:11
-  'Select a document type...' => null,
+  'Select a document type...' => '选择文件类型...',
 
   // src/applications/dashboard/controller/PhabricatorDashboardAddPanelController.php:45
   'Select a panel to add.' => null,
@@ -23541,7 +23541,7 @@ return array(
   'Shades' => null,
 
   // src/applications/paste/application/PhabricatorPasteApplication.php:26
-  'Share Text Snippets' => null,
+  'Share Text Snippets' => '共享文本片段',
 
   // src/applications/config/option/PhabricatorCoreConfigOptions.php:136
   'Shenanigans' => null,
@@ -25217,13 +25217,13 @@ return array(
   'Synchronization of parent task from Asana failed!' => null,
 
   // src/applications/meta/controller/PhabricatorApplicationEmailCommandsController.php:98
-  'Syntax' => null,
+  'Syntax' => '语法',
 
   // src/applications/config/option/PhabricatorSyntaxHighlightingConfigOptions.php:7
-  'Syntax Highlighting' => null,
+  'Syntax Highlighting' => '语法高亮',
 
   // src/applications/system/application/PhabricatorSystemApplication.php:6
-  'System' => null,
+  'System' => '系统',
 
   // src/applications/config/option/PhabricatorPHDConfigOptions.php:54
   'System user to run daemons as.' => null,
@@ -29376,13 +29376,13 @@ return array(
   'Unknown status query \'%s\'!' => null,
 
   // src/applications/drydock/storage/DrydockLease.php:177
-  'Unknown status??' => null,
+  'Unknown status??' => '未知的状态??',
 
   // src/applications/files/storage/PhabricatorFile.php:671
-  'Unknown storage format.' => null,
+  'Unknown storage format.' => '未知的存储格式.',
 
   // src/applications/daemon/controller/PhabricatorWorkerTaskDetailController.php:98
-  'Unknown task status!' => null,
+  'Unknown task status!' => '未知的任务状态！',
 
   // src/applications/files/storage/PhabricatorFile.php:844
   'Unknown type matched as image MIME type.' => null,
@@ -29391,10 +29391,10 @@ return array(
   'Unknown user spec \'%s\'.' => null,
 
   // src/applications/diffusion/request/DiffusionRequest.php:186
-  'Unknown version control system!' => null,
+  'Unknown version control system!' => '未知的版本控制系统!',
 
   // src/applications/diffusion/controller/DiffusionServeController.php:221
-  'Unknown version control system.' => null,
+  'Unknown version control system.' => '未知的版本控制系统.',
 
   // src/applications/harbormaster/controller/HarbormasterBuildViewController.php:354
   'Unlimited' => null,
@@ -29529,21 +29529,21 @@ return array(
   'Unsupported Editor Protocol' => null,
 
   // src/applications/oauthserver/controller/PhabricatorOAuthServerAuthController.php:104
-  'Unsupported Response Type' => null,
+  'Unsupported Response Type' => '不支持响应类型',
 
   // src/applications/repository/engine/PhabricatorRepositoryRefEngine.php:375
-  'Unsupported VCS "%s"!' => null,
+  'Unsupported VCS "%s"!' => '不支持 VCS "%s"!',
 
   // src/applications/drydock/blueprint/DrydockWorkingCopyBlueprintImplementation.php:61
   // src/applications/repository/engine/PhabricatorRepositoryMirrorEngine.php:69
   // src/applications/diffusion/query/DiffusionQuery.php:35
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:486
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:530
-  'Unsupported VCS!' => null,
+  'Unsupported VCS!' => '不支持VCS！',
 
   // src/applications/phortune/provider/PhortunePayPalPaymentProvider.php:487
   // src/applications/phortune/provider/PhortuneWePayPaymentProvider.php:383
-  'Unsupported action "%s".' => null,
+  'Unsupported action "%s".' => '不支持的动作 "%s".',
 
   // src/applications/phortune/currency/PhortuneCurrency.php:55
   'Unsupported currency \'%s\'!' => null,
@@ -32817,6 +32817,10 @@ return array(
   'User Guide: Search' => '用户手册：搜索',
   'More Options' => '更多选项',
   'Customize Menu...' => '自定义菜单...',
+  'You are not in any rooms yet.' => '您还没有加入任何群聊.',
+  'No threads found.' => '什么都没有.',
+  'Chat with Others' => '与其他人聊天',
+  'No data.' => '无数据',
 );
 }
 }

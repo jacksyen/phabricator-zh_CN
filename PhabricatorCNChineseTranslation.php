@@ -3981,7 +3981,7 @@ return array(
 
   // src/applications/metamta/applicationpanel/PhabricatorMetaMTAApplicationEmailPanel.php:169
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:150
-  'Add New Address' => null,
+  'Add New Address' => '添加电子邮件地址',
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:325
   'Add New Panel' => null,
@@ -4510,7 +4510,7 @@ return array(
   'All Revisions' => '所有的修订',
 
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:97
-  'All Rooms' => '所有房间',
+  'All Rooms' => '所有群聊',
 
   // src/applications/herald/controller/HeraldTranscriptController.php:164
   'All Rules' => null,
@@ -8869,7 +8869,7 @@ return array(
 
   // src/applications/conpherence/controller/ConpherenceRoomListController.php:36
   // src/applications/conpherence/controller/ConpherenceNewRoomController.php:66
-  'Create Room' => '创建房间',
+  'Create Room' => '创建群聊',
 
   // src/applications/herald/controller/HeraldNewController.php:208
   // src/applications/herald/controller/HeraldTranscriptListController.php:14
@@ -10521,45 +10521,45 @@ return array(
   'Document' => '文档',
 
   // src/applications/legalpad/controller/LegalpadDocumentEditController.php:189
-  'Document Body' => null,
+  'Document Body' => '文档内容',
 
   // src/applications/phriction/controller/PhrictionDocumentController.php:94
   'Document Deleted' => '文档已删除',
 
   // src/applications/phriction/controller/PhrictionDocumentController.php:424
-  'Document Hierarchy' => null,
+  'Document Hierarchy' => '文档层次',
 
   // src/applications/phriction/controller/PhrictionDiffController.php:218
   // src/applications/phriction/controller/PhrictionHistoryController.php:168
-  'Document History' => null,
+  'Document History' => '文档历史',
 
   // src/applications/phriction/controller/PhrictionHistoryController.php:151
-  'Document History for %s' => null,
+  'Document History for %s' => '%s 文档历史',
 
   // src/applications/legalpad/controller/LegalpadDocumentEditController.php:246
   // src/applications/phriction/controller/PhrictionEditController.php:265
-  'Document Preview' => null,
+  'Document Preview' => '文档预览',
 
   // src/applications/search/query/PhabricatorSearchApplicationSearchEngine.php:111
-  'Document Status' => null,
+  'Document Status' => '文档状态',
 
   // src/applications/search/query/PhabricatorSearchApplicationSearchEngine.php:124
-  'Document Types' => null,
+  'Document Types' => '文档类型',
 
   // src/applications/uiexample/examples/PHUIDocumentExample.php:6
-  'Document View' => null,
+  'Document View' => '文档视图',
 
   // src/applications/phriction/conduit/PhrictionCreateConduitAPIMethod.php:41
-  'Document already exists!' => null,
+  'Document already exists!' => '文档已经存在',
 
   // src/applications/phriction/editor/PhrictionTransactionEditor.php:509
-  'Document content is required.' => null,
+  'Document content is required.' => '文档内容不能为空',
 
   // src/applications/search/engine/PhabricatorMySQLSearchEngine.php:22
   'Document has no PHID!' => null,
 
   // src/applications/phriction/editor/PhrictionTransactionEditor.php:478
-  'Document title is required.' => null,
+  'Document title is required.' => '文档标题不能为空',
 
   // src/applications/uiexample/examples/PHUIDocumentExample.php:62
   // src/applications/uiexample/examples/PHUIListExample.php:62
@@ -10690,7 +10690,7 @@ return array(
   'Doubloon' => '金币',
 
   // src/applications/phragment/controller/PhragmentHistoryController.php:88
-  'Download' => null,
+  'Download' => '下载',
 
   // src/applications/xhprof/view/PhabricatorXHProfProfileTopLevelView.php:133
   'Download %s Profile' => null,
@@ -10717,7 +10717,7 @@ return array(
   'Download Raw Diff' => '下载Diff源文件',
 
   // src/applications/diffusion/controller/DiffusionBrowseFileController.php:443
-  'Download Raw File' => null,
+  'Download Raw File' => '下载源文件',
 
   // src/applications/phragment/controller/PhragmentSnapshotViewController.php:113
   'Download Snapshot as ZIP' => null,
@@ -11317,7 +11317,7 @@ return array(
   'Edit Revision' => '编辑修订',
 
   // src/applications/conpherence/view/ConpherenceDurableColumnView.php:395
-  'Edit Room' => '编辑房间',
+  'Edit Room' => '编辑群聊',
 
   // src/applications/herald/controller/HeraldRuleViewController.php:85
   // src/applications/herald/controller/HeraldRuleController.php:240
@@ -13720,7 +13720,7 @@ return array(
   'Icons and Images' => null,
 
   // src/applications/settings/panel/PhabricatorSessionsSettingsPanel.php:93
-  'Identity' => null,
+  'Identity' => '用户名',
 
   // src/applications/policy/controller/PhabricatorPolicyEditController.php:176
   'If No Rules Match' => null,
@@ -14796,7 +14796,7 @@ return array(
   'Joined Before' => null,
 
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:101
-  'Joined Rooms' => '已加入的房间',
+  'Joined Rooms' => '已加入的群聊',
 
   // src/applications/project/editor/__tests__/PhabricatorProjectEditorTestCase.php:130
   'Joining an already-joined project is a no-op.' => null,
@@ -16750,7 +16750,7 @@ return array(
 
   // src/applications/metamta/applicationpanel/PhabricatorMetaMTAApplicationEmailPanel.php:328
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:268
-  'New Address' => null,
+  'New Address' => '新电子邮件地址',
 
   // src/applications/phame/controller/PhameController.php:14
   // src/applications/phame/controller/PhameController.php:126
@@ -16844,7 +16844,7 @@ return array(
 
   // src/applications/conpherence/controller/ConpherenceController.php:53
   // src/applications/conpherence/controller/ConpherenceNewRoomController.php:8
-  'New Room' => '新建房间',
+  'New Room' => '新建群聊',
 
   // src/applications/policy/controller/PhabricatorPolicyEditController.php:165
   'New Rule' => '新规则',
@@ -19977,7 +19977,7 @@ return array(
   'Preview' => '预览',
 
   // src/applications/files/transform/PhabricatorFileThumbnailTransform.php:73
-  'Preview (220px)' => null,
+  'Preview (220px)' => '预览(220px)',
 
   // src/applications/phame/controller/post/PhamePostViewController.php:112
   'Preview / Publish' => null,
@@ -19998,7 +19998,7 @@ return array(
   'Prim Goldenrod' => null,
 
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:95
-  'Primary' => null,
+  'Primary' => '主键',
 
   // src/applications/project/controller/PhabricatorProjectEditDetailsController.php:229
   'Primary Hashtag' => null,
@@ -22629,7 +22629,7 @@ return array(
 
   // src/applications/conpherence/view/ConpherenceThreadListView.php:126
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:261
-  'Rooms' => '房间',
+  'Rooms' => '群聊',
 
   // src/applications/files/controller/PhabricatorFileComposeController.php:197
   'Royal Crest' => null,
@@ -28022,7 +28022,7 @@ return array(
   // src/applications/conduit/controller/PhabricatorConduitTokenEditController.php:97
   // src/applications/conduit/settings/PhabricatorConduitTokensSettingsPanel.php:75
   // src/applications/tokens/phid/PhabricatorTokenTokenPHIDType.php:8
-  'Token' => null,
+  'Token' => '赞',
 
   // src/applications/phpast/controller/PhabricatorXHPASTViewStreamController.php:19
   'Token %s: %s' => null,
@@ -28050,7 +28050,7 @@ return array(
   // src/applications/tokens/application/PhabricatorTokensApplication.php:6
   // src/applications/tokens/controller/PhabricatorTokenController.php:9
   // src/applications/tokens/event/PhabricatorTokenUIEventListener.php:144
-  'Tokens' => null,
+  'Tokens' => '拥有的赞',
 
   // src/applications/tokens/controller/PhabricatorTokenGivenController.php:61
   // src/applications/tokens/controller/PhabricatorTokenController.php:10
@@ -31855,11 +31855,11 @@ return array(
   'You have no linked accounts.' => null,
 
   // src/applications/conpherence/controller/ConpherenceNotificationPanelController.php:75
-  'You have no messages.' => null,
+  'You have no messages.' => '您没有消息.',
 
   // src/applications/notification/query/PhabricatorNotificationSearchEngine.php:104
   // src/applications/notification/controller/PhabricatorNotificationPanelController.php:30
-  'You have no notifications.' => null,
+  'You have no notifications.' => '您没有通知.',
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:300
   'You have no revisions waiting on others.' => '你没有在等待的修订',
@@ -32810,7 +32810,13 @@ return array(
 
   // src/applications/harbormaster/controller/HarbormasterBuildViewController.php:353
   '100' => null,
-
+  
+  // @auth jacksyen
+  'Search All Documents' => '搜索所有文档',
+  'Search Current Application' => '搜索当前应用',
+  'User Guide: Search' => '用户手册：搜索',
+  'More Options' => '更多选项',
+  'Customize Menu...' => '自定义菜单...',
 );
 }
 }

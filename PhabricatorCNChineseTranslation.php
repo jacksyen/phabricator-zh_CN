@@ -32015,7 +32015,7 @@ return array(
   'You must choose at least one recipient for your message.' => null,
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:73
-  'You must confirm the new password.' => null,
+  'You must confirm the new password.' => '您必须确认新密码',
 
   // src/applications/search/controller/PhabricatorApplicationSearchController.php:53
   'You must delegate to this controller, not invoke it directly.' => null,
@@ -32325,7 +32325,7 @@ return array(
   'Your account is linked with all available providers.' => null,
 
   // src/applications/ponder/controller/PonderAnswerSaveController.php:30
-  'Your answer must not be empty.' => null,
+  'Your answer must not be empty.' => '您的答案不能为空',
 
   // src/applications/conduit/method/ConduitConnectConduitAPIMethod.php:48
   'Your authentication certificate for this server is invalid.' => null,
@@ -32349,28 +32349,28 @@ return array(
   'Your configured editor URI uses an unsupported protocol. Change your settings to use a supported protocol, or ask your administrator to add support for the chosen protocol by configuring: %s' => null,
 
   // src/applications/config/controller/PhabricatorConfigIssueListController.php:55
-  'Your install has no current setup issues to resolve.' => null,
+  'Your install has no current setup issues to resolve.' => '您的安装没有要解决的当前安装问题',
 
   // src/applications/auth/controller/PhabricatorAuthStartController.php:48
-  'Your login session is invalid. Try reloading the page and logging in again. If that does not work, clear your browser cookies.' => null,
+  'Your login session is invalid. Try reloading the page and logging in again. If that does not work, clear your browser cookies.' => '您的登录会话无效。 尝试重新加载网页并重新登录。 如果不起作用，请清除浏览器Cookie',
 
   // src/applications/metamta/replyhandler/PhabricatorMailReplyHandler.php:88
   'Your message does not contain any body text or attachments, so Phabricator can not do anything useful with it. Make sure comment text appears at the top of your message: quoted replies, inline text, and signatures are discarded and ignored.' => null,
 
   // src/applications/settings/panel/PhabricatorPasswordSettingsPanel.php:73
-  'Your new password is too short.' => null,
+  'Your new password is too short.' => '您的新密码太短',
 
   // src/applications/settings/panel/PhabricatorPasswordSettingsPanel.php:82
-  'Your new password is very weak: it is one of the most common passwords in use. Choose a stronger password.' => null,
+  'Your new password is very weak: it is one of the most common passwords in use. Choose a stronger password.' => '您的新密码很弱：它是最常用的密码之一。 选择更强的密码',
 
   // src/applications/settings/panel/PhabricatorConduitCertificateSettingsPanel.php:79
-  'Your old certificate has been destroyed and you have been issued a new certificate. Sessions established under the old certificate are no longer valid.' => null,
+  'Your old certificate has been destroyed and you have been issued a new certificate. Sessions established under the old certificate are no longer valid.' => '您的旧证书已被销毁，您已获得新证书。 根据旧证书建立的会话不再有效',
 
   // src/applications/settings/panel/PhabricatorPasswordSettingsPanel.php:131
-  'Your password is currently hashed using an algorithm which is no longer available on this install.' => null,
+  'Your password is currently hashed using an algorithm which is no longer available on this install.' => '您的密码当前已使用此安装中不再提供的算法进行散列',
 
   // src/applications/releeph/controller/product/ReleephProductCreateController.php:19
-  'Your product should have a simple, descriptive name.' => null,
+  'Your product should have a simple, descriptive name.' => '您的产品应该有一个简单的描述性名称',
 
   // src/applications/releeph/controller/product/ReleephProductEditController.php:58
   'Your releeph product should have a simple descriptive name.' => null,
@@ -32379,10 +32379,10 @@ return array(
   'Your server is configured with \'%s\', which prevents Phabricator from opening files it requires access to.\n\nDisable this setting to continue.\n\nFailures:\n\n%s' => null,
 
   // src/applications/auth/controller/PhabricatorAuthDowngradeSessionController.php:17
-  'Your session is no longer in high security.' => null,
+  'Your session is no longer in high security.' => '您的会话已不再是高安全性',
 
   // src/applications/uiexample/examples/PHUIActionPanelExample.php:92
-  'Your team has reviewed lots of code!' => null,
+  'Your team has reviewed lots of code!' => '您的小组已审核了大量代码',
 
   // src/applications/project/controller/PhabricatorProjectUpdateController.php:91
   'Your tremendous contributions to this project will be sorely missed. Are you sure you want to leave?' => null,
@@ -32394,7 +32394,7 @@ return array(
   'Yum' => null,
 
   // src/applications/phragment/controller/PhragmentZIPController.php:63
-  'ZIP Extension Not Installed' => null,
+  'ZIP Extension Not Installed' => 'ZIP扩展不能安装',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:108
   'Zend OPcache' => null,
@@ -32418,7 +32418,7 @@ return array(
   '[%s] (%s) %s // %s' => null,
 
   // src/applications/calendar/editor/PhabricatorCalendarEventEditor.php:377
-  '[Calendar]' => null,
+  '[Calendar]' => '[日历]',
 
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:674
   '[Legalpad] Signature Verification' => null,
@@ -32427,23 +32427,23 @@ return array(
   '[Phabricator] %s has invited you to join Phabricator' => null,
 
   // src/applications/people/storage/PhabricatorUserEmail.php:195
-  '[Phabricator] Email Verification' => null,
+  '[Phabricator] Email Verification' => '[Phabricator] 验证电子邮件',
 
   // src/applications/auth/controller/PhabricatorEmailLoginController.php:108
-  '[Phabricator] Password Reset' => null,
+  '[Phabricator] Password Reset' => '[Phabricator] 重置密码',
 
   // src/applications/people/storage/PhabricatorUserEmail.php:234
   // src/applications/people/storage/PhabricatorUserEmail.php:266
-  '[Phabricator] Primary Address Changed' => null,
+  '[Phabricator] Primary Address Changed' => '[Phabricator] 主地址已更改',
 
   // src/applications/people/storage/PhabricatorUser.php:688
-  '[Phabricator] Username Changed' => null,
+  '[Phabricator] Username Changed' => '[Phabricator] 用户名已更改',
 
   // src/applications/people/storage/PhabricatorUser.php:639
-  '[Phabricator] Welcome to Phabricator' => null,
+  '[Phabricator] Welcome to Phabricator' => '[Phabricator] 欢迎使用',
 
   // src/applications/project/editor/PhabricatorProjectTransactionEditor.php:416
-  '[Project]' => null,
+  '[Project]' => '[项目]',
 
   // src/applications/repository/worker/PhabricatorRepositoryPushMailWorker.php:116
   '[Push]' => null,
@@ -32566,7 +32566,7 @@ return array(
 
   // src/applications/search/management/PhabricatorSearchManagementInitWorkflow.php:26
   // src/applications/search/management/PhabricatorSearchManagementInitWorkflow.php:35
-  'done.' => null,
+  'done.' => '完成.',
 
   // src/applications/people/controller/PhabricatorPeopleInviteSendController.php:179
   'emails' => null,
@@ -32603,7 +32603,7 @@ return array(
   'here' => null,
 
   // src/applications/conpherence/__tests__/ConpherenceThreadTestCase.php:131
-  'hi' => null,
+  'hi' => '你好',
 
   // src/applications/herald/adapter/HeraldAdapter.php:420
   'include all of' => null,
